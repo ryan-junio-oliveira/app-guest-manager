@@ -7,8 +7,6 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import Form from './components/GuestForm.vue';
-import Guests from './components/GuestList.vue';
 import { db } from './firebase';
 import { collection, getDocs } from 'firebase/firestore';
 
